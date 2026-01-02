@@ -1,7 +1,7 @@
 import os
 from azure.storage.blob import BlobServiceClient
 import streamlit as st
-from utils.Config import Config # Certifique-se de que o caminho está correto
+from utils.Config import Config
 
 def upload_blob(file, file_name):
     try:
