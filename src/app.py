@@ -1,10 +1,5 @@
 import streamlit as st
-import sys
 from pathlib import Path
-
-# Garantir que o diretório `src` esteja no sys.path antes de importar `services`.
-sys.path.insert(0, str(Path(__file__).parent))
-
 from services.blob_services import upload_blob
 from services.credit_card_service import analize_credit_card
 
